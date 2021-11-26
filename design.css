@@ -77,8 +77,9 @@ h1{
     text-align: center;
     font-family: cursive;
     color: crimson;
-    font-size: 45px;
+    font-size: 40px;
     text-decoration: underline blue;
+    font-weight: lighter;
 }
 h1:hover{
     background-color: white;
@@ -119,4 +120,13 @@ a:hover{
     background-color: white;
     border-style: solid;
     border-color: black;
+}
+div.other{
+    padding: 35px;
+    background-color: cadetblue;
+}
+.cover{
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
 }
