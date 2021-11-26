@@ -1,0 +1,122 @@
+body{
+    background-color:rgba(169, 169, 169, 0.548);
+}
+.logo{
+    height: 175px;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: rgb(52, 71, 23);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+}
+.header{
+    padding: 60px;
+    text-align: center;
+    background-color: aquamarine;
+    color: rgba(150, 80, 80, 0.418);
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 30px;
+}
+h3:hover{
+    background-color: rgb(103, 194, 186);
+    width: auto;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo:hover{
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 25px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(64, 64, 112);
+    font-family: cursive;
+    opacity: 100%;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline white;
+}
+li a:hover:not(.active){
+    background-color:rgba(0, 0, 255, 0.39);
+}
+.active{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: crimson;
+    font-size: 45px;
+    text-decoration: underline blue;
+}
+h1:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline silver;
+}
+div.gallery{
+    text-align: center;
+    display: block;
+}
+.member{
+    border: yellow;
+    border-style: solid;
+    border-radius: 50%;
+}
+h2{
+    font-family: 'Comic Neue', cursive;
+}
+p{
+    font-family: cursive;
+}
+.p1{
+    font-family: cursive;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+div.history{
+    padding: 30px;
+    background-color: rgba(204, 117, 117, 0.219);
+}
+a{
+    font-family: cursive;
+    font-size: 12.5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
