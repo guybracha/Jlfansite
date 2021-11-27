@@ -130,3 +130,10 @@ div.other{
     border-color: brown;
     border-radius: 10px;
 }
+.footer{
+    padding: 15px;
+    background-color: rgba(224, 53, 53);
+    text-align: center;
+    border-color: black;
+    border-style: solid ;
+}
